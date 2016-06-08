@@ -26,6 +26,7 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'honza/vim-snippets'
 Plugin 'garbas/vim-snipmate'
 Plugin 'scrooloose/syntastic'
+Plugin 'vim-airline/vim-airline-themes'
 
 call vundle#end() 
 
