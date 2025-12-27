@@ -1,4 +1,5 @@
 brew "chezmoi"
+brew "gh"
 cask "visual-studio-code"
 cask "warp"
 vscode "alexandernanberg.horizon-theme-vscode"
