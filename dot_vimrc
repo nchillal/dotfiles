@@ -1,0 +1,9 @@
+set tabstop=4
+set hlsearch
+set nobackup
+set nowritebackup
+syntax on
+filetype on
+set autoindent
+set expandtab
+set smartindent

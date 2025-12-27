@@ -1,0 +1,19 @@
+# ~/.zshrc - Basic zsh configuration
+
+# Enable colors and improved prompt
+autoload -U colors && colors
+PS1="%{$fg[cyan]%}%n@%m%{$reset_color%}:%{$fg[blue]%}%~%{$reset_color%}$ "
+
+# Basic history configuration
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt HIST_IGNORE_DUPS
+setopt HIST_IGNORE_SPACE
+
+# Basic completion
+autoload -U compinit && compinit
+
+# Aliases
+alias ll='ls -la'
+alias grep='grep --color=auto'
