@@ -1,6 +1,8 @@
 brew "chezmoi"
 brew "gh"
+brew "go"
 brew "kubernetes-cli"
+brew "openjdk"
 brew "protobuf"
 cask "font-jetbrains-mono-nerd-font"
 cask "visual-studio-code"
