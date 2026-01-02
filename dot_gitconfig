@@ -1,0 +1,23 @@
+[user]
+	name = Nagendra Chillale
+	email = nagendra.chillale@yahoo.com
+[init]
+	defaultBranch = main
+[fetch]
+	prune = true
+[pull]
+	rebase = true
+[rebase]
+	autoStash = true
+[diff]
+	colorMoved = zebra
+[merge]
+	conflictStyle = zdiff3
+[log]
+	date = iso
+[core]
+	autocrlf = input
+[help]
+	autocorrect = 10
+[push]
+	default = simple

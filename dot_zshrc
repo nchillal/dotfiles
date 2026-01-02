@@ -17,3 +17,10 @@ autoload -U compinit && compinit
 # Aliases
 alias ll='ls -la'
 alias grep='grep --color=auto'
+
+# Editor
+export EDITOR="code --wait"
+export HOMEBREW_EDITOR="code --wait"
+
+# Path
+export PATH="/opt/homebrew/opt/openjdk/bin:$HOME/go/bin:$PATH"
