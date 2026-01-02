@@ -1,0 +1,47 @@
+{
+    "workbench.colorTheme": "Horizon Bold",
+    "workbench.sideBar.location": "right",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontSize": 17,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.fontSize": 17,
+    "terminal.external.osxExec": "Warp.app",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.cursorStyle": "underline",
+    "workbench.editor.empty.hint": "hidden",
+    "editor.minimap.enabled": false,
+    "markdown.preview.fontSize": 18,
+    "workbench.startupEditor": "none",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.fontLigatures": true,
+    "editor.minimap.sectionHeaderFontSize": 16,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports.ruff": "explicit",
+            "source.fixAll": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path-mac": "/Users/rajuchillale/.vs-kubernetes/tools/helm/darwin-arm64/helm"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "git.openRepositoryInParentFolders": "never",
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "debug.console.fontSize": 14,
+    "editor.suggestFontSize": 16,
+    "scm.inputFontSize": 16,
+    "vsicons.dontShowNewVersionMessage": true,
+}
